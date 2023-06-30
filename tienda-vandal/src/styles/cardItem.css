@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cardItem{
+    border: 1px solid red;
+    height: 443px;
+    width: 250px;
+    padding: 10px;
+}
+
+.cardItem .cardImg{
+    border: 1px solid green;
+    display: flex;
+    justify-content: center;
+}
+
+.cardItem .cardImg img{
+    width: 100%;
+}

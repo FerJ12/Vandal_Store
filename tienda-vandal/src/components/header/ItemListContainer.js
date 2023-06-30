@@ -5,6 +5,8 @@ const ItemListContainer = (props) => {
             <li>{props.itemDos}</li>
             <li>{props.itemTres}</li>
             <li>{props.itemCuatro}</li>
+            <li>{props.itemCinco}</li>
+            <li>{props.itemSeis}</li>
         </ul>
     )
 }
