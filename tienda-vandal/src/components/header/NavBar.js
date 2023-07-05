@@ -9,12 +9,11 @@ const NavBar = () => {
           </div>
           <nav className="containerItemList">
           <ItemListContainer 
-            itemUno = "Sneakers"
+            itemUno = " Zapas"
             itemDos = "Jeans"
-            itemTres = "T-shirts"
-            itemCuatro = "Jackets/Polo"
-            itemCinco = "Outwear"
-            itemSeis = "Accessories"
+            itemTres = "Remeras"
+            itemCuatro = "Abrigos"
+            
           />
           </nav>
           <div className="containerCart">

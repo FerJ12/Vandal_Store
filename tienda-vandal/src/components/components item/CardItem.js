@@ -9,7 +9,11 @@ const CardItem = () => {
     return(
         <div className="cardItem">
             <Image imagen={ImgPrueba} />
-            <Description title="Campera Edición Invierno 23"/>
+            <Description 
+                title="Campera Edición Invierno 23"
+                cantidad = {5}
+                precio = {50000}
+                />
             <div className="buttons">
                 <ButtonDetalles />
                 <ButtonAddCart />

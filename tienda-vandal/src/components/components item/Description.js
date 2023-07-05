@@ -17,7 +17,7 @@ const Description = (props) => {
             </span>
 
             <span className="precio">
-                {props.precio}
+                ${props.precio}
             </span>
 
         </div>

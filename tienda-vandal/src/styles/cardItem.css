@@ -5,18 +5,92 @@
 }
 
 .cardItem{
-    border: 1px solid red;
-    height: 443px;
-    width: 250px;
+    height: 500px;
+    width: 230px;
     padding: 10px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+/*imagen*/
+
 .cardItem .cardImg{
-    border: 1px solid green;
+    height: 50%;
     display: flex;
     justify-content: center;
 }
 
 .cardItem .cardImg img{
     width: 100%;
+}
+
+/*descripción*/
+
+.cardDescription{
+    display: flex;
+    flex-direction: column;
+    height: 35%;
+}
+
+.cardDescription .title{
+    font-size: 21px;
+    margin: 6px 0;
+}
+
+.cardDescription .description{
+    display: none;
+}
+
+.cardDescription .cant{
+    color: black;
+    font-size: 16px;
+    margin: 6px 0;
+}
+
+.cardDescription .precio{
+    color: purple;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 6px 0;
+}
+
+/*container de botones*/
+
+.buttons{
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.buttons #detalles{
+    height: 45px;
+    width: 70%;
+    border-radius: 50px;
+    background-color: purple;
+    color: white;
+    font-size: 20px;
+    border: none;
+}
+
+.buttons #addCart{
+    background-color: purple;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons #addCart img{
+    transform: scale(0.7);
+}
+
+.buttons #detalles:hover, .buttons #addCart:hover{
+    background-color: rgb(166, 4, 166);
 }
