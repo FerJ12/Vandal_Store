@@ -16,7 +16,12 @@ header{
 header .containerBrand{
     width: 20%;
     height: 100%;
+    display: flex;
 
+}
+
+header .containerBrand img{
+    transform: scale(0.7);
 }
 
 
@@ -36,6 +41,7 @@ header .containerItemList ul{
 }
 
 header .containerItemList ul li{
+    text-decoration: none;
     margin: 15px;
     cursor: pointer;
 

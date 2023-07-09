@@ -5,14 +5,16 @@ import ButtonDetalles from "./Buttondetalles";
 import ButtonAddCart from "./ButtonAddCart"
 import ImgPrueba from "../img/abos4.png"
 
-const CardItem = () => {
+const CardItem = (props) => {
     return(
         <div className="cardItem">
-            <Image imagen={ImgPrueba} />
+            <Image 
+                imagen={props.imagen} 
+                />
             <Description 
-                title="Campera Edición Invierno 23"
-                cantidad = {5}
-                precio = {50000}
+                title= {props.title}
+                cantidad = {props.cantidad}
+                precio = {props.precio}
                 />
             <div className="buttons">
                 <ButtonDetalles />
