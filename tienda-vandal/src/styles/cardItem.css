@@ -18,7 +18,7 @@
 /*imagen*/
 
 .cardItem .cardImg{
-    height: 50%;
+    height: 51%;
     display: flex;
     justify-content: center;
 }
