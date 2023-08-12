@@ -17,7 +17,7 @@ const CardItem = (props) => {
                 precio = {props.precio}
                 />
             <div className="buttons">
-                <ButtonDetalles />
+                <ButtonDetalles id={props.id}/>
                 <ButtonAddCart />
             </div>
 

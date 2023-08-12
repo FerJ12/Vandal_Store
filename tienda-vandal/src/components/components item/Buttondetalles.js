@@ -1,6 +1,8 @@
-const ButtonDetalles = () => {
+import { Link } from "react-router-dom";
+
+const ButtonDetalles = ({id}) => {
     return(
-        <button id="detalles">Ver detalles</button>
+        <Link to={`/item/${id}`} id="detalles">Ver detalles</Link>
     )
 }
 export default ButtonDetalles;
