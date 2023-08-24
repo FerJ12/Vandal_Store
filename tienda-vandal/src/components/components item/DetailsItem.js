@@ -44,7 +44,7 @@ const DetailsItem = () => {
                                     />        
 
                                     <ButtonDetalles 
-                                        txt="Agregar al carrito"
+                                        txt="Agregar al Carrito"
                                     />
                             </div>
                         </div>
