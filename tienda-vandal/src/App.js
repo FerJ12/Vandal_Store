@@ -2,22 +2,27 @@ import './style.css';
 import NavBar from './components/header/NavBar';
 import CardItem from './components/components item/CardItem';
 import ContainerCardItems from './components/components item/ContainerCardItems';
-import DetailsItem from './components/components item/DetailsItem';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import DetailsItem from './components/components item/DetailsItem';
+import ProviderContextCart from "./components/components item/ProviderContextCart";
+
 
 function App() {
   return (  
-    <BrowserRouter>
+    <ProviderContextCart>
+      <BrowserRouter>
         <NavBar />
-        <Routes>
+          <Routes>
             <Route path='/' element={<ContainerCardItems /> }/>
             <Route path='/item/:id' element={<DetailsItem /> }/>
             <Route path='/category/:idCategory' element={<ContainerCardItems /> }/>
-        </Routes>
-
-    </BrowserRouter>
+          </Routes>
+      </BrowserRouter>
+    </ProviderContextCart>
   );
 }
 
 export default App;
+
+
  
