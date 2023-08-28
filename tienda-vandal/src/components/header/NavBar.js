@@ -1,6 +1,7 @@
 import Brand from "./Brand";
 import CartWidget from "./CartWidget";
 import ItemListContainer from "./ItemListContainer";
+import ContainerCart from "./ContainerCart";
 
 const NavBar = () => {
     return (
@@ -16,10 +17,12 @@ const NavBar = () => {
               itemCuatro = "Abrigos"/>
           </nav>
           <div className="containerCart">
-          <CartWidget />
+              <CartWidget />
           </div>
+
+            <ContainerCart />
         </header>
     )
 }
 
-export default NavBar;
+export default NavBar

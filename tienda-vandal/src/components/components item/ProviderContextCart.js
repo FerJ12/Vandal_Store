@@ -4,11 +4,11 @@ import productos from  "../../utils/products.js";
 
 export const listCartContext = createContext(null)
 
-const PrividerContextCart = ( {children} ) => {
+const ProviderContextCart = ( {children} ) => {
 
     const [ listCart, setListCart ] = useState([])
 
-    const addProduct = id => {
+    const addProduct = (id) => {
 
         const productAdd = productos.find(product => product.id === id)
 
@@ -53,4 +53,4 @@ const PrividerContextCart = ( {children} ) => {
 
 }
 
-export default PrividerContextCart;
+export default ProviderContextCart;

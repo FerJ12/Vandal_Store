@@ -26,8 +26,8 @@ const DetailsItem = () => {
 
                         <div className="containerLeft">
                             {/*<Image 
-                                imagen={datos.imageProduct.firtsImage}
-                            />*/}
+                                imagen={items.imageProduct.firtsImage}
+    /> */}
                         </div>  
 
                         <div className="containerRigth">
